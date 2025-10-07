@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahesh Pamula | Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mahesh Pamula</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#gallery">Gallery</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#blog">Blog</a> |
+      <a href="#faq">FAQ</a> |
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="D:\personal documents\New folder\photo and sign\P.Mahesh.JPG" alt="Mahesh Photo">
+    <p>I’m Mahesh Pamula, a passionate web developer who loves creating interactive websites.</p>
+    <dl>
+      <dt>Qualification:</dt>
+      <dd>MCA Graduate</dd>
+      <dt>Strengths:</dt>
+      <dd>Self-motivated and Smart Working</dd>
+    </dl>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <table border="1">
+      <caption>Project List</caption>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Technology</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Library Management System</td>
+          <td>Python, SQL</td>
+          <td>Helps manage book records and users</td>
+        </tr>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>HTML, CSS</td>
+          <td>My personal portfolio site</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <label>HTML:</label>
+    <progress value="90" max="100"></progress><br>
+    <label>CSS:</label>
+    <progress value="80" max="100"></progress><br>
+    <label>JavaScript:</label>
+    <progress value="60" max="100"></progress>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <figure>
+      <picture>
+        <source srcset="D:\personal documents\New folder\photo and sign\P.Mahesh.JPG" media="(min-width:600px)">
+        <img src="D:\personal documents\New folder\photo and sign\P.Mahesh.JPG"" alt="Project image">
+      </picture>
+      <figcaption>My Web Design Work</figcaption>
+    </figure>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name"><br><br>
+      <label>Email:</label>
+      <input type="email" name="email"><br><br>
+      <label>Phone:</label>
+      <input type="tel" name="phone"><br><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="4" cols="30"></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <section id="blog">
+    <h2>My Blog</h2>
+    <article>
+      <h3>Why I Learn Coding</h3>
+      <p>Coding helps me express my creativity through logic and design.</p>
+    </article>
+    <aside>
+      <p>Tip: Practice coding daily to improve logic and consistency.</p>
+    </aside>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>What technologies do you use?</summary>
+      <p>I use HTML, CSS, JavaScript, and Python.</p>
+    </details>
+    <details>
+      <summary>Do you work on freelance projects?</summary>
+      <p>Yes, I do freelance web development projects.</p>
+    </details>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="Learn HTML Basics"></iframe><br><br>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <footer>
+    <p>© 2025 Mahesh Pamula | Guntur</p>
+    <p>Last updated: <time datetime="2025-10-07">September 29, 2025</time></p>
+  </footer>
+
+</body>
+</html>
