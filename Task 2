@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahesh Pamula | Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>
+      <img src="D:\personal documents\New folder\photo and sign\myphoto.jpeg" > Mahesh Pamula
+    </h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#gallery">Gallery</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#blog">Blog</a> |
+      <a href="#faq">FAQ</a> |
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src=""D:\personal documents\New folder\photo and sign\myphoto.jpeg"" alt="Mahesh Photo">
+    <p>Hello! I’m <b>Mahesh Pamula</b>, a passionate learner and web developer from Guntur, India.</p>
+    <dl>
+      <dt>Education:</dt>
+      <dd>MCA Graduate from Hindu College</dd>
+      <dt>Strengths:</dt>
+      <dd>Self-Motivated and Smart Working</dd>
+      <dt>Location:</dt>
+      <dd>Guntur, Andhra Pradesh</dd>
+    </dl>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <table border="1" cellpadding="5">
+      <caption>Project Details</caption>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Technology</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Library Management System</td>
+          <td>Python, SQL</td>
+          <td>Manages book records and transactions</td>
+        </tr>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>HTML, CSS</td>
+          <td>My personal portfolio to showcase skills</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <label>HTML:</label>
+    <progress value="90" max="100"></progress><br>
+    <label>CSS:</label>
+    <progress value="80" max="100"></progress><br>
+    <label>JavaScript:</label>
+    <progress value="70" max="100"></progress><br>
+    <label>Python:</label>
+    <progress value="85" max="100"></progress>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <figure>
+      <picture>
+        <source srcset="https://via.placeholder.com/150" media="(max-width:600px)">
+        <img src="https://via.placeholder.com/300" alt="Project Image">
+      </picture>
+      <figcaption>Library Management Project</figcaption>
+    </figure>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+      <label>Phone:</label><br>
+      <input type="tel" name="phone"><br><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="4" cols="30" required></textarea><br><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+      <h3>My Journey in Web Development</h3>
+      <p>I started learning web development to build creative and functional websites using HTML, CSS, and JavaScript.</p>
+    </article>
+    <aside>
+      <p>Upcoming blogs: HTML Basics, CSS Layouts, and JavaScript Fundamentals.</p>
+    </aside>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <details>
+      <summary>What technologies do you use?</summary>
+      <p>I use HTML, CSS, JavaScript, and Python for development.</p>
+    </details>
+    <details>
+      <summary>Do you work on freelance projects?</summary>
+      <p>Yes, I am open to freelance opportunities.</p>
+    </details>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+    <iframe width="300" height="200"
+      src="https://www.youtube.com/embed/pQN-pnXPaVg"
+      title="HTML Tutorial" allowfullscreen>
+    </iframe>
+    <br><br>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <footer>
+    <p>© 2025 Mahesh Pamula | Guntur, Andhra Pradesh, India</p>
+    <p>Last Updated: <time datetime="2025-10-02">october 2, 2025</time></p>
+  </footer>
+
+</body>
+</html>
